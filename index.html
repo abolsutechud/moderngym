@@ -1160,8 +1160,8 @@ footer {
   .btn-primary, .btn-outline { font-size: 0.9rem; padding: 11px 28px; letter-spacing: 2px; }
   .social-links { flex-wrap: wrap; }
   .social-btn { flex: 1 1 calc(50% - 5px); justify-content: center; }
-  #location { padding-left: 0; padding-right: 0; }
-  .location-inner { overflow: hidden; width: 100%; }
+  #location { padding-bottom: 0 !important; overflow: hidden; }
+  .location-inner { overflow: hidden; width: 100%; margin-left: calc(-5%); width: calc(100% + 10%); }
   .location-info { padding: 2rem 5%; }
   .location-map { width: 100%; overflow: hidden; }
   .location-map iframe { width: 100% !important; min-height: 280px; max-width: 100%; }
@@ -1512,7 +1512,7 @@ footer {
 </div>
 
 <!-- LOCATION -->
-<section id="location" style="padding-bottom:0;">
+<section id="location">
   <div class="section-label reveal">Find Us</div>
   <h2 class="section-title reveal reveal-delay-1">We're in <span class="accent">Kadiri</span></h2>
   <div class="location-inner">
