@@ -915,6 +915,7 @@ section { padding: 100px 6%; }
 #location {
   background: var(--black);
   padding-bottom: 0;
+  overflow: hidden;
 }
 .location-inner {
   display: grid;
@@ -1157,6 +1158,11 @@ footer {
   .hero-title { font-size: clamp(2.6rem, 10vw, 4.5rem); }
   .hero-sub { font-size: 0.9rem; }
   .btn-primary, .btn-outline { font-size: 0.9rem; padding: 11px 28px; letter-spacing: 2px; }
+  .social-links { flex-wrap: wrap; }
+  .social-btn { flex: 1 1 calc(50% - 5px); justify-content: center; }
+  .location-inner { overflow: hidden; }
+  .location-map { width: 100%; overflow: hidden; }
+  .location-map iframe { width: 100% !important; min-height: 280px; max-width: 100%; }
   .hero-stat-strip .hero-stat .num { font-size: 1.4rem; }
   .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
   .gallery-grid .g-item:first-child { grid-column: span 2; }
